@@ -10,7 +10,7 @@ public abstract class ExtraAdditionDecorator extends Pizza {
 	public abstract double getPrezzo();
 
 	@Override
-	public abstract int getCalorie();
+	public abstract long getCalorie();
 
 	@Override
 	public abstract String getIngredienti();

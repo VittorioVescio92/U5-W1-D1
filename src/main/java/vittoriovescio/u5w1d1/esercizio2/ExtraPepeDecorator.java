@@ -21,8 +21,8 @@ public class ExtraPepeDecorator extends ExtraAdditionDecorator {
 	}
 
 	@Override
-	public int getCalorie() {
-		return pizza.getCalorie() + 2;
+	public long getCalorie() {
+		return pizza.getCalorie() + 20;
 	}
 
 	@Override
